@@ -1,4 +1,4 @@
-# Generating-Maze
+# Generating-Maze-Using-Pyamaze
 
 For this object-oriented Python project, a maze of any dimension will be generated, as long as there is an input file containing cell locations, and respective distances from a wall in the format of E,W,N,S. Using a Python package called Pyamaze, the maze will be able to generate digitally, as well as output the newly organized input data in an .CSV file.
 
