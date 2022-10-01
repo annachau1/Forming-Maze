@@ -61,5 +61,5 @@ class YayMaze:
 
 
 if __name__=="__main__":
-    a = YayMaze('inputfile.txt', (1,1), size = 4)
+    a = YayMaze('inputfile1.txt', (1,1), size = 4)
     a.createMaze()
