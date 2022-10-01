@@ -19,7 +19,7 @@ As the input data is processed, each individual line from the input file will be
         
 Now that the input data is formatted properly, the elements of the list can now be used. As explained in Step 1, all the cardinal directions must be converted to either a float 1 or 0, which depends on its individual value when compared to 0.25 meters. In order to accomplish this, the elements [1:5] of the list must undergo conditional statements where they will be organized and transformed into float values 1 or 0. As they are being categorized, their new float values can be appended into an empty string to build the float values for that specific input line. 
 
-## Step 3: Creating a dictionary (key = value)
+## Step 3: Creating a dictionary (key[] = value[])
 As the input data is being transformed, it is crucial to create a library to have each cell location (key) correlate to its respective float values (value). In the list of strings created, element[0] = cell location, while element[1:5] = E,W,N,S. To create a dictionary that follows this format, it is as follows:
 
             self.dict[str(element[0]).replace('  ',' ')] = appendedstring[0:-1]
